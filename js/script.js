@@ -18,7 +18,7 @@ const favoriteColor = prompt('qual è il tuo colore preferito?');
 console.log(favoriteColor);
 
 // Creo Password
-const password = firstName + lastName + favoriteColor;
+const password = firstName + lastName + favoriteColor + '21';
 
 // Lo metto all'interno del html
-password = document.getElementById('new-password') '$[name] $[lastName] $[favoriteColor]';
+document.getElementById('new-password').innerText = `${firstName} ${lastName} ${favoriteColor}`;
