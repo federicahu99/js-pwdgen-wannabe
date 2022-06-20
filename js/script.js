@@ -6,8 +6,8 @@
 */
 
 // Domando il nome dell'user
-const name = prompt('Come ti chiami?');
-console.log(name);
+const firstName = prompt('Come ti chiami?');
+console.log(firstName);
 
 // Domando il cognome dell'user
 const lastName = prompt('Qual è il tuo cognome?');
@@ -18,7 +18,7 @@ const favoriteColor = prompt('qual è il tuo colore preferito?');
 console.log(favoriteColor);
 
 // Creo Password
-const password = name + lastName + favoriteColor;
+const password = firstName + lastName + favoriteColor;
 
-// Lo mostro all'user
-password = document.getElementById('new-password') '$[name] + $[lastName] + $[favoriteColor]';
+// Lo metto all'interno del html
+password = document.getElementById('new-password') '$[name] $[lastName] $[favoriteColor]';
