@@ -21,4 +21,4 @@ console.log(favoriteColor);
 const password = firstName + lastName + favoriteColor + '21';
 
 // Lo metto all'interno del html
-document.getElementById('new-password').innerText = `${firstName} ${lastName} ${favoriteColor}`;
+document.getElementById('new-password').innerText = password;
